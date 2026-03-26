@@ -1,0 +1,20 @@
+{
+  "name": "tolao-trading-bot",
+  "version": "1.0.0",
+  "description": "Tolao crypto scalping bot — BTC/USDT on Binance",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev":   "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "mongodb":          "^6.5.0",
+    "node-binance-api": "^1.0.22",
+    "twilio":           "^5.0.0",
+    "ws":               "^8.16.0"
+  }
+}
